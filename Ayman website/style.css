@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(12, 77, 52);
+}
+
+#MSCH {
+    margin-right: 30%;
+    padding: 8px;
+    height: 70px;
+    width: auto;
+    border-radius: 15%;
+}
+
+#MSCH:hover {
+    border-radius: 0px;
+    transform: scale(1.1);
+    filter: brightness(1.3);
+    box-shadow: 4px 8px 16px rgba(28, 165, 135, 0.3);
+}
+
+#soytan {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-left: 80px;
+    margin-top: -70px;
+    text-shadow: 0 0 4px cyan,
+                 0 0 8px cyan,
+                 0 0 16px cyan,
+                 0 0 32px cyan;
+}
+
+#ami {
+    margin-top: -269px;
+    padding: 200px;
+    text-align: center;
+}
+
+#searchbu {
+    display:flex;
+    justify-content: center;
+    margin-left: 46em;
+    margin-bottom: 5em;
+    padding-bottom: 20px;
+    display:flex;
+    width: 25px;
+    height: 25px;
+    
+    border-radius: ;
+    
+}
+
+#searchbu1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3.3px;
+    border-radius: 50%;
+}
+
+#tui {
+    padding: 7px;
+    width: 48em;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: aqua;
+
+}
+
+#profile {
+    display: block;
+    background-color: aliceblue;
+    height: 40px;
+    width: 40px;
+    margin-top: -20em;
+    margin-left:60em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+#login-text {
+    display: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #2d3436;
+    position: absolute;
+    top: 60px;
+    text-align: center;
+}
+#profile1 {
+    font-size: 20px;
+    color: black;
+}
+
+#profile:hover{
+    transform: scale(1.2);
+ 
+}
+
+#shopping {
+    background-color: chartreuse;
+    height: 40px;
+    width: 40px;
+    margin-top: -2.46em;
+    margin-left: 910px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#shopping1 {
+    font-size: 17px;
+    margin-top: 3px;
+    
+    
+}
+#shopping:hover
+{
+    transform: scale(1.2);
+}
+
+#bread {
+    position: relative;
+    margin-top: 26px;
+    height: 583px;
+    z-index: 1;
+    background-size: cover;
+}
+
+#welcome {
+    font-family: "Abril Fatface", serif;
+    font-size: 65px;
+    position: absolute;
+    color: rgb(120, 240, 224);
+    margin-top: -370px;
+    padding-left: 52px;
+    z-index: 2;
+    text-shadow: 0 0 4px cyan;
+}
+
+#welcome:hover {
+    color: seashell;
+    text-shadow: 0 0 8px cyan, 0 0 16px cyan;
+}   
+
+#card {
+    text-align: center;
+    color: rgb(64, 255, 245);
+    font-family: "Permanent Marker", serif;
+    font-size: 50px;
+    overflow-wrap: break-word;
+
+}
+
+#ta{
+    width: 30em;
+    justify-content: center;
+    margin: 20px auto;
+    padding-bottom: 5px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#ta td,#ta th {
+    padding: 13px;
+    border: 1px solid white;
+
+
+}
+#ta th{
+    background-color: rgb(33, 218, 125);
+}
+#ta td {
+    text-align: center;
+    background-color: rgb(208, 233, 229);
+}
